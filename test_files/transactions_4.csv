@@ -1,0 +1,11 @@
+type,client,tx,amount
+deposit,1,1,100.0
+withdrawal,1,2,50.0
+deposit,2,3,
+dispute,1,2,
+resolve,1,2,
+chargeback,1,2,
+invalid_type,3,4,10.0
+deposit,not_a_client,5,50.0
+withdrawal,1,6,not_a_number
+deposit,1
